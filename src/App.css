@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+button{
+  padding: 10px 20px;
+  margin: 40px;
+  font-size: calc(10px + 2vmin);
+  background-color: #61DAFB;
+  border: none;
+  color: #282c34;
+  box-shadow: 5px 5px 10px #151515 inset, 5px 5px 10px #151515;
+  transition: 1s ease-in-out;
+}
+
+button:hover{
+  transform: translateY(-10px);
+  box-shadow: 1px 1px 2px #151515 inset, 10px 10px 10px #151515;
+}
